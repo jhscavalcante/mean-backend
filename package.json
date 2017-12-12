@@ -1,11 +1,11 @@
 {
-  "name": "backend",
+  "name": "cmean-backend",
   "version": "1.0.0",
   "description": "",
   "main": "loader.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "pm2 start loader.js --name backend"
+    "production": "pm2 start loader.js --name cmean-backend"
   },
   "author": "Henrique",
   "license": "ISC",
@@ -23,5 +23,8 @@
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": ">=6.11.1"
   }
 }
